@@ -10,11 +10,17 @@ int main() {
 	book2.setBookDetails("Sapiens", "BBBBB", "Camila", true);
 	Book book3;
 	book3.setBookDetails("Harry Potter", "CCCCC", "Zin Ko", true);
+	Book book4;
+	book4.setBookDetails("Harry Potter", "CCCCC", "Zin Ko", true);
+	Book book5;
+	book5.setBookDetails("Harry Potter", "CCCCC", "Zin Ko", true);
 
-	Book array[3];
+	Book array[5];
 	array[0] = book1;
 	array[1] = book2;
 	array[2] = book3;
+	array[3] = book4;
+	array[4] = book5;
 	
 	string isbnToBorrow = "";
 	while (isbnToBorrow != "0") {
